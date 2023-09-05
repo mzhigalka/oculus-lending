@@ -1,6 +1,0 @@
-{
-  "vs-html-to-css.ignore": [
-  " Enables transform audio video link to to html5 embed audio video tags."
-    "container",
-  ]
-}
