@@ -404,8 +404,24 @@ body{
   padding-top: 10px;
 }
 
+.equipment {
+  margin-bottom: 100px;
+}
 
+.equipment__title {
+  margin-bottom: 50px;
+}
 
+.equipment__box {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.equipment__box-item--one{
+  grid-row: 1/-1;
+}
 
 
 
