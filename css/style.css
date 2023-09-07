@@ -605,9 +605,24 @@ body{
   font-size: 13px;
 }
 
-.contacts__email {
+
+.footer {
+  border-top: 1px solid #CACAD6;
+  border-bottom: 1px solid #CACAD6;
+  margin-bottom: 45px;
+  padding: 25px 0;
 }
 
+.social {
+  display: flex;
+  gap: 20px;
+  justify-self: end;
+}
 
-
+.social__item {
+}
+.social__link {
+}
+.social__item-img {
+}
 
