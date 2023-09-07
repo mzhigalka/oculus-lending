@@ -329,6 +329,12 @@ body{
   border-image: var(--gradient) 1;
 }
 
+.game__descr-link:hover{
+  color:#fff;
+  background: var(--gradient);
+  -webkit-text-fill-color: #fff;
+}
+
 .game__item {
   border: 1px solid;
   border-image: var(--gradient) 1;
@@ -354,7 +360,6 @@ body{
 
 .game__item-link{
   background: var(--gradient);
-  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-top: auto;
@@ -510,6 +515,7 @@ body{
   font-weight: 700;
   margin-top: auto;
 }
+
 .accessories__item-btn {
   display: inline-block;
   background: var(--gradient);
@@ -519,11 +525,16 @@ body{
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
-  width: 100%;
+  width: 100%;  
   border: 1px solid;
   border-image: var(--gradient) 1;
 }
 
+.accessories__item-btn:hover{
+  color:#fff;
+  background: var(--gradient);
+  -webkit-text-fill-color: #fff;
+}
 
 
 
